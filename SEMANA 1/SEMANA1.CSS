@@ -1,0 +1,26 @@
+html {
+    height: 100%;
+  }
+  body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: linear-gradient(#aad8f8, #aad8f8);
+  }
+  
+h1{
+    color:blueviolet
+}
+
+
+p {
+    color: blue;
+    font-family: 'Arial', sans-serif;
+}
+
+#MIBOTON{
+
+    background-color: aquamarine;
+    color: #ff0000;
+}
+
