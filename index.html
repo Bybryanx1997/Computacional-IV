@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Ejemplos de Eventos</h1>
+    <center><p>MouseOver</p></center>
+
+<div class="container">
+    <div class="caja">
+        <div id="elemento1">Pasa el ratón sobre este elemento para cambiar el color de fondo.</div>
+    </div>
+
+    <div class="caja">
+    <center><a href="#" id="enlace1">Pasa el ratón sobre este enlace para ver un mensaje emergente.</a></center>
+    </div>
+
+    <div class="caja">
+    <img src="z1.jpg" id="imagen1" alt="Imagen a ampliar al pasar el ratón sobre ella.">
+    </div>
+</div>
+
+<center><p>Click</p></center>
+<div class="container">
+<div class="caja">
+    <button class="ejemplo" id="boton1" onclick="mostrarOcultarElemento()">Mostrar/Ocultar</button>
+</div>
+
+<div class="caja">
+    <p class="ejemplo" id="parrafo1">Texto inicial del párrafo.</p>
+</div>
+
+<div class="caja">
+    <button class="ejemplo" id="boton2" onclick="cambiarTextoParrafo()">Cambiar Texto</button>
+</div>
+</div>
+
+<center><p>Focus</p></center>
+<div class="container">
+    <div class="caja">
+        <div class="ejemplo">
+            <p>Escribe tu nombre completo y cambia de color</p>
+            <input type="text" id="campoEntrada" placeholder="Ingrese su nombre">
+        </div>
+    </div>
+
+    <div class="caja">
+        <div class="ejemplo">
+            <p>Si no colocas un correo electronico te sale un mensaje de alerta</p>
+            <input type="text" id="campoEntrada" placeholder="Ingrese su correo electrónico">
+<div id="mensajeAyuda" style="display: none;">Por favor, ingrese una dirección de correo válida.</div>
+        </div>
+    </div>
+
+    <div class="caja">
+        <div class="ejemplo">
+            <p>Escribe tu contraseña</p>
+            <input type="password" id="clave" placeholder="Ingrese su contraseña">
+<div id="mensajeError" style="display: none;">La contraseña debe tener al menos 8 caracteres.</div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div>Bryan Daniel Escobar Umanzor - SMSS045722</div>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
